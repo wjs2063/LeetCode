@@ -17,3 +17,4 @@ class Solution:
                 q.append(t.left)
             if t.right:
                 q.append(t.right)
+ 
