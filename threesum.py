@@ -27,4 +27,4 @@ class Solution:
                     end-=1
         return answer
 x=Solution()
-print(x.threeSum(nums))
+print(x.threeSum(nums)) 

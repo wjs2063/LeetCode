@@ -24,4 +24,4 @@ class Solution:
             n=n.next
             n.val=int(x)
         
-        return a.next # first node.val is 0
+        return a.next # first node.val is 0 
