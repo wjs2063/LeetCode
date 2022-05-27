@@ -13,4 +13,4 @@ class Solution:
             else:
                 for k in graph[node]:
                     stack.append((k,path+[k]))
-                
+                 
