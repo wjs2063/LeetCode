@@ -24,4 +24,3 @@ class Solution:
                 grid[i][j]=min(ns[j],we[i])
                 new_sum+=grid[i][j]
         return new_sum-origin_sum
-                
