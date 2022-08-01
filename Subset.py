@@ -11,4 +11,4 @@ class Solution:
                 back(i+1,path+[nums[i]])
 
         back(0,path)
-        return answer
+        return answer 
