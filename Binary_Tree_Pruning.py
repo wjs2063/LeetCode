@@ -17,6 +17,7 @@ class Solution:
             root.right = dfs(root.right)
             
             # left,child 가 다 없고 root.val 이 0이면 None 으로 바꿔주자
+            # 해당방식 꿀팁 : 일단은 재귀로 작성후에 마지막 끝에다다랐을때 어떻게 적용시킬것인가를 적어주면됨
             if not root.left and not root.right and not root.val :
                 return None
             return root
